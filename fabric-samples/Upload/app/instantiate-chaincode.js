@@ -40,7 +40,7 @@ const instantiateChaincode = async function(peers, channelName, chaincodeName, c
 		                                       // be used to sign the proposal request.
 		// will need the transaction ID string for the event registration later
 		const deployId = tx_id.getTransactionID();
-		const collectionsConfigPath = "C:/Users/garkumar/hyperledger/fabric-samples/Upload2/artifacts/src/github.com/example_cc/collections_config.json";
+		const collectionsConfigPath = "C:/Users/garkumar/hyperledger/fabric-samples/Upload/artifacts/src/github.com/example_cc/collections_config.json";
 		// send proposal to endorser
 		const request = {
 			targets : peers,
